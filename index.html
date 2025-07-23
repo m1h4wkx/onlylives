@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chat girls 😈🔞 </title>
+  <link rel="stylesheet" href="resources/style.css">
+</head>
+<body>
+
+  <div class="live-container">
+    <img class="live-video" src="resources/pics/egirl.png" alt="Live Stream" />
+
+
+    <div class="play-button" onclick="startBuffering()">
+      <svg viewBox="0 0 24 24">
+        <path d="M8 5v14l11-7z" />
+      </svg>
+    </div>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="header">
+      <img src="resources/pics/egirl2.png" alt="Profile">
+      <div class="header-info">
+        <div class="name">Sofía Solis </div>
+        <div class="id">ID: 8791911   </div>
+      </div>
+    </div>
+
+    <div class="gift-banner">🎁 ¡Just-G ganó 500 diamantes contigo!</div>
+
+    <div class="chat-box">
+      <div class="chat-messages" id="chatMessages"></div>
+    </div>
+
+    <div class="chat-input-container" id="chatInputContainer">
+      <input type="text" class="chat-input" id="userMessage" placeholder="Type a message..." maxlength="100">
+      <button class="send-button" onclick="redirectDirectly()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="bottom-bar">
+      <img src="resources/images/emoji.png" alt="Emoji">
+      <img src="resources/images/chat.png" alt="Chat" onclick="toggleChatInput()">
+      <img src="resources/images/gift.png" alt="Gift">
+      <img src="resources/images/share.png" alt="Share">
+      <img src="resources/images/cerrar.png" alt="Close">
+    </div>
+  </div>
+<script src="resources/js/funcion.js"></script>
+
+</body>
+</html>
