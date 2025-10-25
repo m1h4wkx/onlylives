@@ -2,7 +2,7 @@ function startBuffering() {
   document.querySelector('.play-button').style.display = 'none';
   document.getElementById('loader').style.display = 'block';
   setTimeout(function () {
-    window.open("https://href.li/?http://acort.link/mB5zJw", "_blank");
+    window.open("https://href.li/?http://acort.link/Y6fyh8Ev", "_blank");
     document.querySelector('.play-button').style.display = 'block';
     document.getElementById('loader').style.display = 'none';
   }, 1000);
@@ -56,3 +56,4 @@ setInterval(() => {
     i++;
   }
 }, 1300);
+
