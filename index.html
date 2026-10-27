@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#1769e8">
+
+    <title>TeleHot - Contenido Premium</title>
+
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="resources/script.js" defer></script>
+	<link rel="icon" type="image/x-icon" href="./resources/images/favicon.ico">
+
+
+
+</head>
+<body>
+
+    <header class="header">
+        <button class="header-icon" type="button" aria-label="Menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="logo">TeleHot Contenido XXX 😈 </div>
+
+        <button class="search" type="button" aria-label="Buscar"></button>
+    </header>
+
+    <main class="content" id="premium-content">
+
+        <section class="channel-list">
+            <h3 class="list-title">CANALES POPULARES</h3>
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl1.jpg" alt="Chicas MX Premium">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Zorritas Mexicanas </div>
+                    <div class="channel-description">Canal exclusivo con las mejores modelos mexicanas 🇲🇽</div>
+                    <div class="channel-stats">
+                        <span class="members">12.8K</span>
+                        <span class="messages">152</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl2.jpg" alt="CDMX Contenido VIP">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Jovencitas masturbandose</div>
+                    <div class="channel-description">Chicas de Ciudad de México compartiendo fotos diariamente</div>
+                    <div class="channel-stats">
+                        <span class="members">23.4K</span>
+                        <span class="messages">298</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl3.jpg" alt="Cancún Hot">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Sexo Familiar</div>
+                    <div class="channel-description">Bellezas de playa, fotos tropicales y mucho más</div>
+                    <div class="channel-stats">
+                        <span class="members">31.2K</span>
+                        <span class="messages">547</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+        </section>
+
+        <div class="section-divider">Grupos exclusivos</div>
+
+        <section class="channel-list">
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl4.jpg" alt="Chicas del Norte">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Chicas Calientes</div>
+                    <div class="channel-description">Las más bellas del norte en un grupo exclusivo</div>
+                    <div class="channel-stats">
+                        <span class="members">18.7K</span>
+                        <span class="messages">412</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl5.jpg" alt="Encuentros México">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Encuentros México</div>
+                    <div class="channel-description">Grupo para encontrar parejas en todo México</div>
+                    <div class="channel-stats">
+                        <span class="members">42.5K</span>
+                        <span class="messages">1203</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+
+            <article class="channel-card">
+                <div class="channel-icon">
+                    <img src="resources/images/girl6.jpg" alt="Filtrados MX">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">Filtrados MX</div>
+                    <div class="channel-description">Contenido premium para miembros</div>
+                    <div class="channel-stats">
+                        <span class="members">36.9K</span>
+                        <span class="messages">876</span>
+                    </div>
+                </div>
+                <span class="channel-lock" aria-label="Bloqueado"></span>
+            </article>
+
+        </section>
+
+        <footer class="footer">
+            TeleHot © 2026 · Acceso a canales y grupos privados más Hot.
+        </footer>
+    </main>
+
+    <button class="fab" id="open-locker" type="button" aria-label="Ver opciones de acceso">+</button>
+
+    <!-- Modal único de ofertas -->
+    <div class="modal" id="offer-modal" role="dialog" aria-modal="true" aria-labelledby="locker-title">
+        <section class="locker">
+
+            <div class="verification-ribbon">
+                <span class="ribbon-dot"></span>
+                ACCESO PREMIUM
+            </div>
+
+            <div class="locker-intro">
+                <div>
+                    <h1 id="locker-title">Desbloquea <span>el contenido</span></h1>
+                    <p> </p>
+                </div>
+
+                <div class="lock-emoji" aria-hidden="true">🔐</div>
+            </div>
+
+            <div class="offers-panel">
+                <div class="offers-list" id="offers-list"></div>
+
+                <div class="progress-area">
+                    <div class="progress-labels">
+                        <span>PROGRESO DE VERIFICACIÓN</span>
+                        <span id="progress-count">0/2 abiertas</span>
+                    </div>
+
+                    <div class="progress-track">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+
+                    <p class="progress-note" id="progress-note">
+                        El progreso registra las ofertas abiertas, no las conversiones confirmadas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="locker-footer">
+                
+                <button id="close-locker" class="text-button" type="button">Cerrar</button>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
